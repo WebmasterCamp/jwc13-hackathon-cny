@@ -91,7 +91,7 @@ function Canvas() {
         <div>
           <div ref={divRef} className="relative w-[100%]">
             <img className="rounded-md" alt="room" src={room}></img>
-
+            
             <img src={clocks[clock]} className='w-[5%] absolute top-[25%] left-[50%] drop-shadow-lg'></img>
 
             <img src={tables[table]} className='w-[25%] absolute bottom-[10%] right-[5%] drop-shadow-lg'></img>
