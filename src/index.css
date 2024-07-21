@@ -7,7 +7,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: rgba(255, 255, 255, 0.87);
+  /* color: rgba(255, 255, 255, 0.87); */
   /* color-scheme: light dark; */
   /* background-color: #242424; */
 
@@ -15,4 +15,28 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.imghead {
+  background-image: url(./assets/head.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.modern {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url('./assets/Modern.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.minimal {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url('./assets/Minimal.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.luxury {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url('./assets/Luxury.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
