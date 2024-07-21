@@ -43,13 +43,13 @@
 .a1 {
   background-image: url('./assets/furnitures/clocks/clock1.png');
   background-position: center;
-  background-size: contain;
+  background-size: 50%;
   background-repeat: no-repeat;
 }
 .a2 {
   background-image: url('./assets/furnitures/clocks/clock2.png');
   background-position: center;
-  background-size: contain;
+  background-size: 50%;
   background-repeat: no-repeat;
 }
 .l1 {
