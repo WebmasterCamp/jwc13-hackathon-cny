@@ -9,10 +9,14 @@ function Navbar() {
     <>
       <nav className='h-[68px] w-[100%] bg-[#CAD4BC] flex justify-around items-center pl-[28px]'>
         <div className='flex gap-[10px] items-center'>
-            <img src={logo} alt="" className='w-[70px] h-[60px]' />
+            <img src={logo} alt="" className='w-[60px] h-[60px]' />
             <a href="/" className='font-bold text-[36px]'>INTELLIGIBLE</a>
         </div>
         <div className='flex gap-[36px] items-center pr-[40px]'>
+            <div className='bg-white rounded-full'>
+            <input type="text" placeholder='Set Budget...' className='py-[5px] px-[20px] bg-white outline-none	rounded-full' />
+            <a href="" className='pr-[8px]'>SUBMIT</a>
+            </div>
             <a href="" className='px-[22px] py-[6px] bg-white rounded-full'>History</a>
             <a href=""><svg width="20" height="23" viewBox="0 0 20 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M18.4323 20.6241V18.5809C18.4323 17.4971 18.0018 16.4577 17.2354 15.6914C16.469 14.925 15.4296 14.4945 14.3458 14.4945H6.17294C5.08914 14.4945 4.04974 14.925 3.28338 15.6914C2.51702 16.4577 2.08649 17.4971 2.08649 18.5809V20.6241M14.3458 6.32156C14.3458 8.57844 12.5163 10.408 10.2594 10.408C8.0025 10.408 6.17294 8.57844 6.17294 6.32156C6.17294 4.06467 8.0025 2.23511 10.2594 2.23511C12.5163 2.23511 14.3458 4.06467 14.3458 6.32156Z" stroke="#1E1E1E" stroke-width="2.88455" stroke-linecap="round" stroke-linejoin="round"/>
