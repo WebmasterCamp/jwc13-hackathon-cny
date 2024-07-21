@@ -9,7 +9,7 @@
 
   /* color: rgba(255, 255, 255, 0.87); */
   /* color-scheme: light dark; */
-  /* background-color: #242424; */
+  background-color: #CAD4BC;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -40,14 +40,14 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.s1 {
-  background-image: url('./assets/furnitures/sofa/sofa1.webp');
+.a1 {
+  background-image: url('./assets/furnitures/clocks/clock1.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
-.s2 {
-  background-image: url('./assets/furnitures/sofa/sofa2.png');
+.a2 {
+  background-image: url('./assets/furnitures/clocks/clock2.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

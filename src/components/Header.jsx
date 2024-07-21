@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import modern from '../assets/Modern.jpeg'
 import minimal from '../assets/Minimal.jpeg'
 import luxury from '../assets/Luxury.jpeg'
+import { Link } from 'react-router-dom'
 
 function Header() {
 
@@ -16,7 +17,7 @@ function Header() {
             <p className='text-[20px]'>Design you room click</p>
             <div className='w-[300px] h-[1px] bg-gray-200 my-[24px]'></div>
             <div>
-            <a href='' className='bg-[#03571a] py-[11px] px-[26px] rounded-[16px] text-white'>Generate Room</a>
+              <Link className='bg-[#03571a] py-[11px] px-[26px] rounded-[16px] text-white' to='/canvas'>Generate Room</Link>
             </div>
         </div>
 
