@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import '../App.css'
 import Navbar from './Navbar'
 import Head from './Header'
+import ARken from './AR-ken'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <>
       <Navbar />
       <Head />
+      <ARken />
     </>
   )
 }

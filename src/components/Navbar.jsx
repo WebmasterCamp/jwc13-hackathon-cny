@@ -1,13 +1,17 @@
 import { useState } from 'react'
 import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
+import logo from '../assets/logo.png'
 
 function Navbar() {
 
   return (
     <>
       <nav className='h-[68px] w-[100%] bg-[#CAD4BC] flex justify-around items-center pl-[28px]'>
-        <a href="/" className='font-bold text-[36px]'>INTELLIGIBLE</a>
+        <div className='flex gap-[10px] items-center'>
+            <img src={logo} alt="" className='w-[70px] h-[60px]' />
+            <a href="/" className='font-bold text-[36px]'>INTELLIGIBLE</a>
+        </div>
         <div className='flex gap-[36px] items-center pr-[40px]'>
             <a href="" className='px-[22px] py-[6px] bg-white rounded-full'>History</a>
             <a href=""><svg width="20" height="23" viewBox="0 0 20 23" fill="none" xmlns="http://www.w3.org/2000/svg">

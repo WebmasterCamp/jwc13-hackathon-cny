@@ -40,3 +40,51 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.s1 {
+  background-image: url('./assets/furnitures/sofa/sofa1.webp');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.s2 {
+  background-image: url('./assets/furnitures/sofa/sofa2.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.l1 {
+  background-image: url('./assets/furnitures/lamp/lamp1.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.l2 {
+  background-image: url('./assets/furnitures/lamp/lamp2.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.c1 {
+  background-image: url('./assets/furnitures/coffeetable/table1.webp');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.c2 {
+  background-image: url('./assets/furnitures/coffeetable/table2.webp');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.s1 {
+  background-image: url('./assets/furnitures/sofa/sofa1.webp');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.s2 {
+  background-image: url('./assets/furnitures/sofa/sofa2.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
