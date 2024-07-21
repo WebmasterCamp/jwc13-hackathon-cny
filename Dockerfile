@@ -25,8 +25,9 @@ RUN \
   else echo "Lockfile not found." && exit 1; \
   fi
 
-FROM nginx:latest as prod
+FROM nginx:alpine as prod
 
 COPY --from=builder /app/dist /usr/share/nginx/html
+COPY ./default.conf /etc/nginx/conf.d/default.conf
 
 CMD ["nginx", "-g", "daemon off;"]
