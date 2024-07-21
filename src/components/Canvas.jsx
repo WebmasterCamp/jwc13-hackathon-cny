@@ -4,7 +4,6 @@ import html2canvas from 'html2canvas';
 
 import clock1 from '../assets/furnitures/clocks/clock1.png'
 import clock2 from '../assets/furnitures/clocks/clock2.png'
-import ARken from './AR-ken';
 
 function Canvas() {
 

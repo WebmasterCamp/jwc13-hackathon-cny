@@ -10,6 +10,8 @@ import './index.css'
 
 import { createBrowserRouter, RouterProvider, useParams } from 'react-router-dom';
 import AR from './components/AR.jsx'
+import Login from './components/Login.jsx'
+import History from './components/History.jsx'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,16 @@ const router = createBrowserRouter([
   {
     path: '/AR',
     element: <AR />,
+    errorElement: <NotFound />
+  },
+  {
+    path: '/Login',
+    element: <Login />,
+    errorElement: <NotFound />
+  },
+  {
+    path: '/History',
+    element: <History />,
     errorElement: <NotFound />
   }
 ]);
